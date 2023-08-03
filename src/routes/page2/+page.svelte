@@ -1,0 +1,1 @@
+page 2 is cooler than the home page

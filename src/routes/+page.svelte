@@ -1,8 +1,2 @@
-<script>
-    import Header from "$lib/Header.svelte";
-    import Footer from "$lib/Footer.svelte";
-</script>
-
-<Header/>
-
-<Footer/>
+<pre>runing over                          here</pre>
+page 2 is a lier
