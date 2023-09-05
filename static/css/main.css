@@ -9,6 +9,10 @@ nav {
     width: 70%;
 }
 
+header{
+    padding: 0% 0% 0% 20%;
+}
+
 .flex_parent{
     display:flex;
 }
@@ -18,9 +22,6 @@ nav {
      background:turquoise; 
      border:1px solid mediumvioletred;
      color:wheat;
-     
-}
-header{
-    padding-left: 20%;
-}
+}     
+
 
