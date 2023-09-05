@@ -1,16 +1,12 @@
 footer {
     color: red;
-    background-color: aqua;
     font-size: 120%;
-    width: 7%;
 }
 nav {
     font-size: 150%;
     font-weight: 900;
-    background-color: brown;
+    background-color: rgb(173, 8, 8);
     width: 70%;
-    padding-left: 10%;
-    
 }
 
 .flex_parent{
@@ -18,10 +14,13 @@ nav {
 }
 
 .child{
-     width:1%;
+     width:30px;
      background:turquoise; 
      border:1px solid mediumvioletred;
      color:wheat;
      
+}
+header{
+    padding-left: 20%;
 }
 
