@@ -1,2 +1,2 @@
-<img src="img\Dino.jpg" alt="not a dino">
+ <img src="img\Fate.jpg" alt="not a dino">
 
