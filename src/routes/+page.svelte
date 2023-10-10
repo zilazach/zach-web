@@ -1,7 +1,2 @@
-<p>over</p>
+<img src="img\Dino.jpg" alt="not a dino">
 
-<div class="flex_parrnt">
-    <div class="child">1</div>
-    <div class="child">2</div>
-    <div class="child">3</div>
-</div>
