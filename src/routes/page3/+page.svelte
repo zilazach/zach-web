@@ -14,5 +14,9 @@
 
 
 {#each imgs as img}
-    <img src= "{img.urls.regular}" alt="">
+    <img src= "{img.urls.regular}" alt="" style = "width:500px;height:350px">
 {/each}
+<br>
+<img src= "img\fate-pets.webp" alt = "not a dino" style = "width:500px;height:350px"> 
+<img src= "img\fate-pets-2.jpg" alt = "not a dino" style = "width:500px;height:350px"> 
+<img src="img\dogs&cats.jpg" alt="not a dino">

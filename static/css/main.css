@@ -30,4 +30,14 @@ a {
     color: white;
 }
 
+div {
+    overflow: hidden;
+}
 
+html {
+    background-color: black;
+}
+
+img {
+    color: white;
+}
