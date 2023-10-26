@@ -1,7 +1,9 @@
+/*size and color for the footer*/
 footer {
     color: red;
     font-size: 120%;
 }
+/*size and color for the nav bar*/
 nav {
     font-size: 150%;
     font-weight: 900;
@@ -9,10 +11,11 @@ nav {
     border:2px solid rgb(243, 10, 10);
     width: 70%;
 }
-
+/*size and color for the header*/
 header {
     padding: 0% 0% 0% 20%;
     background-color: black;
+    position: fixed;
 } 
 
 .flex_parent { display:flex; }
@@ -29,15 +32,19 @@ header {
 a {
     color: white;
 }
-
+/*stops things in the dev from getting out*/
 div {
     overflow: hidden;
 }
-
+/*color for the site*/
 html {
     background-color: black;
 }
 
 img {
     color: white;
+}
+/*color for the footer*/
+footer {
+    background-color: white;
 }
