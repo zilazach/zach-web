@@ -1,3 +1,4 @@
+<!--an api used to get images of cats with dogs-->
 <script>
     import { onMount } from 'svelte';
 
@@ -12,9 +13,9 @@
     });
 </script>
 
-
+<!--images from the api and the img folder-->
 {#each imgs as img}
-    <img src= "{img.urls.regular}" alt="" style = "width:500px;height:350px">
+    <img src= "{img.urls.regular}" alt="not a dino" style = "width:500px;height:350px">
 {/each}
 <br>
 <img src= "img\fate-pets.webp" alt = "not a dino" style = "width:500px;height:350px"> 

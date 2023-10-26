@@ -1,3 +1,4 @@
+<!--The footer for the site-->
 <footer>
-    footer
+    this is a footer, more words
 </footer>
