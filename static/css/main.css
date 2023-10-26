@@ -15,7 +15,7 @@ nav {
 header {
     padding: 0% 0% 0% 20%;
     background-color: black;
-    position: fixed;
+    
 } 
 
 .flex_parent { display:flex; }
@@ -47,4 +47,9 @@ img {
 /*color for the footer*/
 footer {
     background-color: white;
+}
+
+.page3img{
+    width: 500px;
+    height: 350px;
 }
