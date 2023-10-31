@@ -15,7 +15,6 @@ nav {
 header {
     padding: 0% 0% 0% 20%;
     background-color: black;
-    
 } 
 
 .flex_parent { display:flex; }
@@ -53,3 +52,14 @@ footer {
     width: 500px;
     height: 350px;
 }
+
+a:hover{
+    color: red;
+}
+
+a::before{
+    content: url(CS.png);
+    height: 50px;
+    width: 50px;
+}
+
