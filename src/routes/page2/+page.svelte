@@ -1,4 +1,4 @@
-<!--image of chariters and a-->
+<!--image and text-->
 <div class="flex_parent">
     <div class="child child1"><img src="img\Iori.webp" alt="not a dino"></div>
     <div class="child child2">wordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswordswords</div>

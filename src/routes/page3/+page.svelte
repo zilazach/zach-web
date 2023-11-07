@@ -27,4 +27,4 @@
 <br>
 <img src= "img\fate-pets.webp" alt = "not a dino" class="page3img"> 
 <img src= "img\fate-pets-2.jpg" alt = "not a dino" class="page3img"> 
-<img src="img\dogs&cats.jpg" alt="not a dino">
+<img src="img\dogs&cats.jpg" alt="not a dino" style="padding-left: 240px;">
