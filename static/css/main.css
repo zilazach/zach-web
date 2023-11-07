@@ -9,11 +9,18 @@ nav {
     font-weight: 900;
     background-color: black;
     border:2px solid rgb(243, 10, 10);
-    width: 70%;
+    grid-template-columns: 3rem 3rem 3rem;
+    grid-template:
+    "nav1 nav2 nav3";
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
 }
+.navElement {
+    float: left;
+  }
 /*size and color for the header*/
 header {
-    padding: 0% 0% 0% 20%;
     background-color: rgb(14, 14, 14);
 } 
 
@@ -42,6 +49,7 @@ html {
 
 img {
     color: white;
+    padding-left: 5px;
 }
 /*color for the footer*/
 footer {
@@ -61,3 +69,80 @@ a::before{
     content: url(CS.png);
 }
 
+@media (min-height: 680px) and (orientation: portrait) {
+  /*size and color for the footer*/
+    footer {
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    }
+/*size and color for the nav bar*/
+nav {
+    font-size: 150%;
+    font-weight: 900;
+    background-color: black;
+    border:2px solid rgb(243, 10, 10);
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-template:
+    "nav1 nav2 nav3";
+    height: 300px;
+}
+.navElement {
+    float: left;
+
+  }
+/*size and color for the header*/
+header {
+    background-color: rgb(14, 14, 14);
+} 
+
+.flex_parent { display:flex; }
+
+.child { 
+  background: gray;
+  border:1px solid black;
+  color:white;
+}
+
+.child1 { width:15%; }
+.child2 { width:85%; }
+
+a {
+    color: white;
+    -webkit-transform:scale(0.4);
+    -moz-transform:scale(0.4);
+    -ms-transform:scale(0.4);
+    transform:scale(0.4);
+}
+/*stops things in the dev from getting out*/
+div {
+    overflow: hidden;
+}
+/*color for the site*/
+html {
+    background-color: rgb(29, 28, 28);
+}
+
+img {
+    color: white;
+    width: auto;
+    height: 50%;
+    max-width: 500px;
+}
+/*color for the footer*/
+footer {
+    background-color: white;
+}
+
+.page3img{
+    width: 500px;
+    height: 350px;
+}
+
+a:hover{
+    color: red;
+}
+
+a::before{
+    content: url(CS.png);
+}
+}

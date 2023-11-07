@@ -19,7 +19,7 @@
         });
     }, 1);
 </script>
-
+<div class="contents">
 <!--images from the api and the img folder-->
 {#each imgs as img}
     <img src= "{img.urls.regular}" alt="not a dino" class="page3img">
@@ -27,4 +27,5 @@
 <br>
 <img src= "img\fate-pets.webp" alt = "not a dino" class="page3img"> 
 <img src= "img\fate-pets-2.jpg" alt = "not a dino" class="page3img"> 
-<img src="img\dogs&cats.jpg" alt="not a dino" style="padding-left: 240px;">
+<img src="img\dogs&cats.jpg" alt="not a dino">
+</div>

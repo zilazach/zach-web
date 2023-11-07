@@ -1,6 +1,6 @@
 <!--The navigation for the site-->
 <nav>
-   <a href="/">Home</a>
-    <a href="/page2">page2</a>
-    <a href="/page3">page3</a>
+   <a href="/" class="nav1">Home</a>
+    <a href="/page2" class="nav1">page2</a>
+    <a href="/page3" class="nav2">page3</a>
 </nav>
