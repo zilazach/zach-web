@@ -9,9 +9,6 @@ nav {
     font-weight: 900;
     background-color: black;
     border:2px solid rgb(243, 10, 10);
-    grid-template-columns: 3rem 3rem 3rem;
-    grid-template:
-    "nav1 nav2 nav3";
     align-content: center;
     display: flex;
     justify-content: space-evenly;
@@ -59,6 +56,7 @@ footer {
 .page3img{
     width: 500px;
     height: 350px;
+    align-self: center;
 }
 
 a:hover{
@@ -66,7 +64,18 @@ a:hover{
 }
 
 a::before{
-    content: url(CS.png);
+    background-image: url(CS.png);
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: "";
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-height: 680px) and (orientation: portrait) {
@@ -84,7 +93,6 @@ nav {
     grid-template-columns: 5rem 5rem 5rem;
     grid-template:
     "nav1 nav2 nav3";
-    height: 300px;
 }
 .navElement {
     float: left;
@@ -103,15 +111,11 @@ header {
   color:white;
 }
 
-.child1 { width:15%; }
-.child2 { width:85%; }
+.child1 { width:35%; }
+.child2 { width:65%; }
 
 a {
     color: white;
-    -webkit-transform:scale(0.4);
-    -moz-transform:scale(0.4);
-    -ms-transform:scale(0.4);
-    transform:scale(0.4);
 }
 /*stops things in the dev from getting out*/
 div {
@@ -126,7 +130,7 @@ img {
     color: white;
     width: auto;
     height: 50%;
-    max-width: 500px;
+    max-width: 350px;
 }
 /*color for the footer*/
 footer {
@@ -143,6 +147,11 @@ a:hover{
 }
 
 a::before{
-    content: url(CS.png);
+    background-image: url(CS.png);
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: "";
 }
 }
